@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style media="screen">
+            @font-face {
+                font-family: "aasheim";
+                src: url("./aasheim.woff");
+            }
+
+            body {
+                font-family: "aasheim";
+                text-align: center;
+
+                padding: 0;
+            }
+            ul, li {
+                margin: 0;
+                padding: 0;
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            header {
+                padding: 20px;
+            }
+
+            .sub-header {
+                padding: 20px;
+                font-size: 52px;
+            }
+
+            .text-intro {
+                font-size: 18px;
+            }
+
+            h1 {
+                font-size: 72px;
+            }
+
+            a, h3 {
+                font-size: 48px;
+            }
+
+            .grid {
+                display: grid;
+                grid-template-columns: 25% 25% 25% 25%;
+            }
+
+            .grid__2 {
+                grid-template-columns: 25% 25%;
+            }
+
+            @media only screen
+              and (min-device-width : 320px)
+              and (max-device-width : 768px) {
+                  .grid {
+                      display: grid;
+                      grid-template-columns: 100%;
+                  }
+
+                  .grid__2 {
+                      grid-template-columns: 100%;
+                  }
+            }
+
+            .text {
+                padding: 40px;
+                font-family: 'aasheim';
+                word-break: break-all;
+            }
+
+            .text__68 {
+                line-height: 90px;
+                font-size: 68px;
+            }
+
+            .text__36 {
+                font-size: 36px;
+            }
+
+            .text__24 {
+                font-size: 24px;
+            }
+
+            .text__18 {
+                font-size: 18px;
+            }
+
+            .text:nth-child(odd) {
+                color: white;
+                background-color: black;
+            }
+
+            .text:nth-child(odd) a {
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>aasheim</h1>
+            <p class="text-intro">an open source type created by jon tore hafstad</p>
+            <p class="text-intro">this is a modernistic type inspired by futura and the bauhause movement, thats why there are only lower case letters.</p>
+        </header>
+
+        <section>
+            <ul class="grid">
+                <li class="text">
+                    <h3>68pt</h3>
+                    <p class="text__68">abcdefghijklmnopqrstuvxyz</p>
+                </li>
+                <li class="text">
+                    <h3>36pt</h3>
+                    <p class="text__36">abcdefghijklmnopqrstuvxyz</p>
+                </li>
+                <li class="text">
+                    <h3>24pt</h3>
+                    <p class="text__24">abcdefghijklmnopqrstuvxyz</p>
+                </li>
+                <li class="text">
+                    <h3>18pt</h3>
+                    <p class="text__18">abcdefghijklmnopqrstuvxyz</p>
+                </li>
+            </ul>
+            <ul class="grid">
+                <li class="text">
+                    <h3>68pt</h3>
+                    <p class="text__68">0123456789-+,.;:</p>
+                </li>
+                <li class="text">
+                    <h3>36pt</h3>
+                    <p class="text__36">0123456789-+,.;:</p>
+                </li>
+                <li class="text">
+                    <h3>24pt</h3>
+                    <p class="text__24">0123456789-+,.;:</p>
+                </li>
+                <li class="text">
+                    <h3>18pt</h3>
+                    <p class="text__18">0123456789-+,.;:</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="grid grid__2 sub-header">Download</h2>
+            <ul class="grid">
+                <li class="text">
+                    <a href="./assheim.woff">woff</a>
+                </li>
+                <li class="text">
+                    <a href="./assheim.ttc">ttc</a>
+                </li>
+                <li class="text">
+                    <a href="./assheim.otf">otf</a>
+                </li>
+                <li class="text">
+                    <a href="./assheim.sfd">sfd</a>
+                </li>
+            </ul>
+
+        </section>
+    </body>
+</html>
